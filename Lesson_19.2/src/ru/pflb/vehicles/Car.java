@@ -8,7 +8,7 @@ public class Car {
     public VehicleClass vehicleClass = VehicleClass.MEDIUM;
     public int weight = 3;
     public Driver driver = new Driver("Антонов","8 лет", "85967ab52");
-    public Engine engine = new Engine("Россия", "125 л.с");
+    public Engine engine = new Engine("ВАЗ", "125 л.с");
     public static void start() {
         System.out.println("Поехали!");
     }

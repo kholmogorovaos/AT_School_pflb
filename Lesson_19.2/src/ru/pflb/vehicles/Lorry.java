@@ -11,7 +11,7 @@ public class Lorry extends Car {
 
     }
     public Driver driver = new Driver("Иванов", "30 лет", "45897fg52");
-    public Engine engine = new Engine("Франция", "105 л.с");
+    public Engine engine = new Engine("КАМАЗ", "105 л.с");
     public String loadingAmount = "50 кг";
     @Override
     public String toString() {

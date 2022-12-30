@@ -10,7 +10,7 @@ public class SportCar extends Car {
         weight = 3;
     }
     public Driver driver = new Driver("Петров", "15 лет", "DS5852fg52");
-    public Engine engine = new Engine("Англия", "350 л.с.");
+    public Engine engine = new Engine("Феррари", "350 л.с.");
     public String maxVelocity = "350 км/ч";
     @Override
     public String toString() {
